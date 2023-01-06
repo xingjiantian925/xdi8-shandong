@@ -1,0 +1,8 @@
+@font-face {
+    font-family: xid8;
+    src: local("Fira Xdi8 for Windows"), url("./Fira\ Xdi8\ For\ Windows.otf");
+}
+
+.xdi8 {
+    font-family: xid8;
+}
