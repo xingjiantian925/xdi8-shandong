@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as o}from"./app.1ef03391.js";const m=JSON.parse('{"title":"\u5E0C\u6B77\u90E8\u9996","description":"","frontmatter":{},"headers":[],"relativePath":"Bushou.md"}'),s={name:"Bushou.md"},c=o("",6),_=[c];function p(r,i,n,d,l,u){return a(),e("div",null,_)}const f=t(s,[["render",p]]);export{m as __pageData,f as default};
