@@ -40,33 +40,34 @@ import { VPTeamMembers ,VPTeamPageSection,VPTeamPageTitle} from 'vitepress/theme
 
 const members = [
   {
-    avatar: '/img/xlui6-01.jpg',
+    avatar: './xlui6-01.jpg',
     name: '_ajthreac_ 夏花语',
     title: '社区之主',
     links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+      { icon: 'github' },
+      { icon: 'twitter'},
+      { icon:'qq'}
     ]
   },
 
   
 
   {
-    avatar: '/img/huang.jpg',
+    avatar: './huang.jpg',
     name: '黄雀飞',
     title: '希顶教父',
     links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+      { icon: 'github' },
+      { icon: 'twitter' }
     ]
   },
   {
-    avatar: '/img/txj_logo.png',
+    avatar: './txj_logo.png',
     name: 'TXJ',
     title: 'WEB开发与社区维护',
     links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+      { icon: 'github' },
+      { icon: 'twitter' }
     ]
   }
   
