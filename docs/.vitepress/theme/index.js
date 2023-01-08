@@ -12,6 +12,9 @@ import SvgImage from './components/SvgImage.vue';
 import HomeSponsors from './components/HomeSponsors.vue'
 import AsideSponsors from './components/AsideSponsors.vue'
 
+
+import Content from 'vitepress/theme';
+
 // import TxjLayout fomr './TxjLayout.vue';
 
 

@@ -35,4 +35,68 @@ features:
 ---
 
 
+<script setup>
+import { VPTeamMembers ,VPTeamPageSection,VPTeamPageTitle} from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: '/img/xlui6-01.jpg',
+    name: '_ajthreac_ 夏花语',
+    title: '社区之主',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+
+  
+
+  {
+    avatar: '/img/huang.jpg',
+    name: '黄雀飞',
+    title: '希顶教父',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  {
+    avatar: '/img/txj_logo.png',
+    name: 'TXJ',
+    title: 'WEB开发与社区维护',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  }
+  
+]
+</script>
+
+
+
+
+
+
+
+
+
+
+<VPTeamPageTitle>
+    <template #title>
+      社区卓越贡献者
+    </template>
+    <template #lead>
+      加入希歷社区！ 您的名字也可以登上首页！
+    </template>
+  </VPTeamPageTitle>
+
+
+<VPTeamMembers size="small" :members="members" />
+
+
+
+
+
+
 
