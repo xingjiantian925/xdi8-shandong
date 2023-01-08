@@ -7,8 +7,8 @@ hero:
   text: 希歷希歷,淅淅沥沥；顾望三尺，犹未断绝
   tagline: 这是一种希顶方言-欢迎加入社区...
   image: 
-    src: /logo.png
-    alt: 这里应该有一张logo 笑死我了 根本没有
+    src: /img/xlui6.svg
+    alt: 我永远喜欢美工(一种文艺工作者)
   actions:
     - theme: brand
       text: 现在开始了解希歷

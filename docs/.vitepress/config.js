@@ -25,6 +25,7 @@ export default {
 
 
     themeConfig: {
+        logo: '/img/xlui6.svg',
         sidebar: [{
             text: '希歷语',
             items: [
